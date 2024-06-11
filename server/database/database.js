@@ -9,8 +9,8 @@ const connDB = () => {
         db.once('open', () => {
             console.log('Database connection done');
         })
-    } catch (e) {
-        console.error(e.message);
+    } catch (error) {
+        console.error(error);
     }
 }
 

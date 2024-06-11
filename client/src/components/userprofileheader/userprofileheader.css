@@ -8,8 +8,8 @@
 }
 
 .main-avatar {
-    max-width: 152px;
-    max-height: 152px;
+    width: 152px;
+    height: 152px;
     border-radius: 100%;
     overflow: hidden;
     position: absolute;

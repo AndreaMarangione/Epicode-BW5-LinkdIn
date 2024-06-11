@@ -1,0 +1,8 @@
+.section__footer {
+    cursor: pointer;
+    transition: all 167ms linear;
+}
+
+.section__footer:hover {
+    background-color: rgb(140, 140, 140, 0.1);
+}

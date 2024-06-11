@@ -1,0 +1,31 @@
+.search-form {
+    background-color: #EDF3F8;
+    margin-right: 1.875rem;
+}
+
+.search-form input {
+    background-color: #EDF3F8;
+    transition: all 250ms linear;
+    height: 2.125rem;
+}
+
+.search-form input:focus {
+    background-color: #EDF3F8;
+    box-shadow: none;
+}
+
+/* .search-form.active{
+    border: 2px solid #0A66C2 !important;
+} */
+
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    .search-form input {
+        width: 17.5rem;
+    }
+
+    .search-form input:focus {
+        width: 19.375rem;
+    }
+}

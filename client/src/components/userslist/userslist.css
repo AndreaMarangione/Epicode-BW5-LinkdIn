@@ -1,0 +1,5 @@
+.users-list li:last-child {
+    border: none !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+}

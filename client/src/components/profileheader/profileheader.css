@@ -1,0 +1,26 @@
+.main-header__header {
+    max-height: 200px;
+}
+
+.main-header__header img {
+    object-position: bottom;
+    object-fit: cover;
+}
+
+.main-avatar {
+    max-width: 152px;
+    max-height: 152px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateY(-70%) translateX(-50%);
+}
+
+@media only screen and (min-width: 768px) {
+    .main-avatar {
+        left: 1.75rem;
+        transform: translateY(-70%) translateX(0);
+    }
+}

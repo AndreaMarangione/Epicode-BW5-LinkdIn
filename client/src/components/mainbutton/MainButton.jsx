@@ -13,6 +13,12 @@ const MainButton = ({children, variant, onClick, className}) => {
 
     }
 
+    if (!variant) {
+        return <button className={`btn main-button py-1 px-3 rounded-pill fw-semibold mt-2 icon-link ${className} `}
+                       onClick={onClick}>{children}</button>
+
+    }
+
 
 }
 

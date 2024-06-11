@@ -29,7 +29,7 @@ const Register = () => {
                         name="email"
                     />
 
-                    <MainButton variant={'fill'} className={'w-100 d-flex justify-content-center py-3 fs-6'}>Accetta e iscriviti</MainButton>
+                    <MainButton variant={'fill'} className={'w-100 d-flex justify-content-center py-2 fs-5'}>Accetta e iscriviti</MainButton>
                 </div>
 
             </div>

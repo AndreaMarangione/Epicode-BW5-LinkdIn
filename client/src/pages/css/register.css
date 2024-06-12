@@ -1,0 +1,67 @@
+.navbar-brand {
+    margin-left: 0rem;
+}
+
+.register-container {
+    height: calc(100dvh - 262px);
+}
+
+.register-title {
+    max-width: 20rem;
+}
+
+.signUp-card {
+    max-width: 300px;
+}
+
+.linkedin-text-color {
+    color: #0A66C2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.privacy-font-size {
+    font-size: 12px;
+}
+
+.register-raw {
+    height: 1px;
+    background-color: #cdcfd2;
+    width: 100%;
+}
+
+@media only screen and (min-width: 375px) {
+    .register-container {
+        height: calc(100dvh - 228px);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .register-container {
+        height: calc(100dvh - 194px);
+    }
+
+    .navbar-brand {
+        margin-left: 9rem;
+    }
+
+    .signUp-card {
+        max-width: 400px;
+    }
+
+    .register-title {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .register-container {
+        height: calc(100dvh - 194px);
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .register-container {
+        height: calc(100dvh - 126px);
+    }
+}

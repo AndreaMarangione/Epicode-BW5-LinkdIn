@@ -1,0 +1,27 @@
+.items-container {
+    margin-left: 0rem;
+}
+
+.footer-size {
+    min-height: 50px;
+    background-color: #FFFFFF;
+}
+
+.copyright-font-size {
+    font-size: 12px !important;
+}
+
+.link-font-size {
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+.link-font-size:hover {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+    .items-container{
+        margin-left: 9rem;
+    }
+}
